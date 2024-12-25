@@ -1,0 +1,672 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure body and html take full height */
+body, html {
+    height: 100%;
+}
+
+/* Home Page Background */
+.home-background {
+    background: url('background-below.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    height: 60vh; /* Adjust the height of the header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+    filter: brightness(70%) blur(1px);
+    z-index: -1;
+}
+
+header h1 {
+    color: rgb(251, 249, 249);
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 248, 248);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: #fffefe;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Skills Page - Set Background */
+.skills-page {
+    background: url('skills-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; /* Ensures it covers the entire page */
+}
+
+/* Skills Section Styles */
+.skills-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to show background image */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    position: relative; /* Make sure this section can be referenced for absolute positioning */
+}
+
+/* Skills Content Styling */
+.skills-content {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 80%;
+}
+
+.skills-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.skills-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-content ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Image Container Styles */
+.image-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 1000px; /* Adjust distance from the right */
+    bottom: -60px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.image-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+/* Name Below the Image */
+.image-name {
+    font-size: 1.2rem; /* Adjust font size as needed */
+    margin-top: 10px; /* Space between image and the name */
+    color: #333; /* Text color */
+    font-weight: bold; /* Optional: Make the name bold */
+    text-align: center; /* Ensures the text is centered */
+}
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+
+/* Skills Page - Header Styles (Remove unnecessary background overrides) */
+.skills-page header {
+    display: none; /* Hide the header on the Skills page */
+}
+
+/* Skills Page - Ensure skills section takes up full page with background */
+.skills-page .skills-section {
+    background: url('skills-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Full height of the page */
+}
+/* Image Container Styles */
+.well-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 800px; /* Adjust distance from the right */
+    bottom: -300px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.well-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+
+/* Image Container Styles */
+.will-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: -500px; /* Adjust distance from the right */
+    bottom: -5px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.will-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+
+/* Image Container Styles */
+.wil-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: -10px; /* Adjust distance from the right */
+    bottom: -400px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.wil-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure body and html take full height */
+body, html {
+    height: 100%;
+}
+
+/* Projects Page Background */
+.projects-page {
+    background: url('projects-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Ensures the background covers the full viewport */
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 248, 248);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: #fffefe;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Remove Header in Projects Page */
+.projects-page header {
+    display: none;
+}
+
+/* Projects Section Styles */
+.projects-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Adjusts for nav height */
+}
+
+.projects-content {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white box */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 80%;
+}
+
+.projects-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.projects-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-content ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+
+/* Image Container Styles */
+.image-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 700px; /* Adjust distance from the right */
+    bottom: -500px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.image-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+
+/* age Container Styles */
+.age-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 140px; /* Adjust distance from the right */
+    bottom: -150px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* age Styles */
+.age-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 9px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+/* Image Container Styles */
+.sound-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 20px; /* Adjust distance from the right */
+    bottom: -850px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.sound-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+h1 {
+    color: white;
+}
+/* Image Container Styles */
+.sensor-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: -780px; /* Adjust distance from the right */
+    bottom: 470px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.sensor-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+/* Image Container Styles */
+.colour-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 10px; /* Adjust distance from the right */
+    bottom: -1750px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.colour-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+/* Image Container Styles */
+.led-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: -750px; /* Adjust distance from the right */
+    bottom: 450px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.led-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+/* Additional Class for White Text */
+.white-text {
+    color: white;
+}
+
+
+
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin-top: 20px;
+    position: relative; /* Ensure footer scrolls with content */
+}
+
+
+
+/* Remove Header in About Page */
+.about-page header {
+    display: none;
+}
+
+/* About Page Background */
+.about-page {
+    background: url('about-background.jpg') no-repeat center center fixed; /* Ensure file extension is included */
+    background-size: cover;
+    min-height: 100vh; /* Ensures the background covers the full viewport */
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 248, 248);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: #fffefe;
+    color: black;
+    border-radius: 5px;
+}
+
+/* About Section Styles */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Adjusts for nav height */
+}
+
+.about-content {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white box */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 80%;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Remove Header in Contact Page */
+.contact-page header {
+    display: none;
+}
+
+/* Contact Page Background */
+.contact-page {
+    background: url('contact-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Adjusts for nav height */
+}
+
+.contact-content {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent white box */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 80%;
+}
+
+.contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.contact-content a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
+/* Certificates Page Background */
+.certificates-page {
+    background: url('certificates-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; /* Ensures the background covers the full viewport */
+}
+
+/* Remove Header in Certificates Page */
+.certificates-page header {
+    display: none;
+}
+
+/* Certificates Section Styles */
+.certificates-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    min-height: calc(100vh - 60px); /* Adjusts for nav height */
+}
+
+.certificates-content {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white box */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 80%;
+}
+
+.certificates-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333; /* Text color */
+}
+
+.certificates-content ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.certificates-content ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #555; /* Subtle text color */
+}
+/* Image Container Styles */
+.be-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 10px; /* Adjust distance from the right */
+    bottom: -350px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.be-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+} 
+
+/* Image Container Styles */
+.becom-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: -500px; /* Adjust distance from the right */
+    bottom: 400px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.becom-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+/* Image Container Styles */
+.bcom-container {
+    position: absolute; /* Position image relative to the skills section */
+    right: 0px; /* Adjust distance from the right */
+    bottom: 350px; /* Moves the image below the section */
+    text-align: center; /* Centers the image and text */
+}
+
+/* Image Styles */
+.bcom-container img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for style */
+}
+
+
+/* Navigation Bar Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    padding: 10px 0;
+}
+
+nav a {
+    color: rgb(255, 248, 248);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: #fffefe;
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
